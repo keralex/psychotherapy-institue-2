@@ -4,7 +4,9 @@
 .material-icons.md-48 { font-size: 48px; }
 body{
     margin: 0;
+    background-color: #f8f9fa;
 }
+/* background */
 .bg_blue1{
     background-color:#0005CE;
 
@@ -21,8 +23,21 @@ body{
     background-color:rgb(79, 238, 209);
     
 }
+/* texts */
 .txt_white{
     color:#f8f9fa;
+}
+.txt_gray{
+    color: #AFA8BA;
+}
+.txt_gray2{
+   color: #4A4453 ;
+}
+.txt_blue4{
+    color:rgb(79, 238, 209) ;
+}
+.txt_blue3{
+    color:#00C3F9 ;
 }
 /* navbar */
 
@@ -50,6 +65,14 @@ body{
 #values .col-md-3{
     padding-top: 1em;
     padding-bottom: 1em;
+}
+/* services */
+#service .container-fluid{
+    margin: 0 !important;
+}
+#service .row{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 /* querys */
 /* // Small devices (landscape phones, 576px and up) */
