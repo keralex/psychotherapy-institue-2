@@ -1,3 +1,47 @@
+body{
+    margin: 0;
+}
+.bg_blue1{
+    background-color:#0005CE;
+
+}
+.bg_blue2{
+    background-color:#0080FF;
+    
+}
+.bg_blue3{
+    background-color:#00C3F9;
+    
+}
+.bg_blue4{
+    background-color:rgb(79, 238, 209);
+    
+}
+.txt_white{
+    color:#f8f9fa;
+}
+/* navbar */
+
+/* home */
+#home{
+    background-image: url('./img/bg_3.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#home .btn-primary{
+    background-color:#00C3F9 ;
+}
+#home .container-fluid{
+    height: 85vh;
+    margin: 0;
+}
+/* values */
+#values .container-fluid{
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+}
 /* querys */
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
