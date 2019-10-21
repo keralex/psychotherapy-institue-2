@@ -205,6 +205,7 @@ footer {
    }
     #home {
         background-image: url('./img/bg-hand.jpg');
+        background-position: center center;
     }
     #about .col-md-4{
         margin-bottom: 3em;
