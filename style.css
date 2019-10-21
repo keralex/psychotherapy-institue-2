@@ -1,139 +1,181 @@
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-body{
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+body {
     margin: 0;
     background-color: #f8f9fa;
 }
+
 /* background */
-.bg_blue1{
-    background-color:#0005CE;
+.bg_blue1 {
+    background-color: #0005CE;
 
 }
-.bg_blue2{
-    background-color:#0080FF;
-    
+
+.bg_blue2 {
+    background-color: #0080FF;
+
 }
-.bg_blue3{
-    background-color:#00C3F9;
-    
+
+.bg_blue3 {
+    background-color: #00C3F9;
+
 }
-.bg_blue4{
-    background-color:rgb(79, 238, 209);
-    
+
+.bg_blue4 {
+    background-color: rgb(79, 238, 209);
+
 }
+
 /* texts */
-.txt_white{
-    color:#f8f9fa;
+.txt_white {
+    color: #f8f9fa;
 }
-.txt_gray{
+
+.txt_gray {
     color: #AFA8BA;
 }
-.txt_gray2{
-   color: #4A4453 !important;
+
+.txt_gray2 {
+    color: #4A4453 !important;
 }
-.txt_blue4{
-    color:rgb(79, 238, 209) ;
+
+.txt_blue3 {
+    color: #00C3F9 !important;
 }
-.txt_blue3{
-    color:#00C3F9 ;
-}
-.txt_sans{
+
+.txt_sans {
     font-family: 'PT Sans', sans-serif;
 }
-.txt_muli{
+
+.txt_muli {
     font-family: 'Muli', sans-serif;
 }
+
 /* navbar */
-.navbar.bg-light a{
-    color:#00C3F9;
+.navbar.bg-light a {
+    color: #00C3F9;
 }
+
 .navbar.bg-light {
     background-color: #f5f5f5;
 }
+
+.navbar.navbar-light a {
+    color: #00C3F9 !important;
+}
+
+.navbar.navbar-light a.signup {
+    color: #4A4453 !important;
+}
+
 /* home */
-#home{
+#home {
     background-image: url('./img/bg_3.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#home .btn-primary{
-    background-color:#00C3F9 ;
+
+#home .btn-primary {
+    background-color: #00C3F9;
     border: #00C3F9;
     margin: 2em;
     font-size: 1.15em;
 }
-#home .container-fluid{
+
+#home .container-fluid {
     height: 95vh;
     margin: 0;
 }
 
 /* values */
-#values .container-fluid{
+#values .container-fluid {
     margin: 0;
     padding: 0;
 }
 
-#values .col-md-3{
+#values .col-md-3 {
     padding: 1.5em;
 }
+
 /* services */
-#service .container-fluid{
+#service .container-fluid {
     margin: 0 !important;
 }
-#service .row{
+
+#service .row {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
+
 /* about us */
-#about{
-    background-color: #f5f5f5;
+#about {
+    background-color: #fafafa;
     padding-bottom: 2em;
     padding-top: 2em;
 
 }
-#about .row{
+
+#about .row {
     margin: 0;
     padding: 0;
 }
-#about .col-md-5 img{
+
+#about .col-md-5 img {
     width: 100%;
     margin-bottom: 1em;
     margin-top: 1em;
 
 }
-#about .col-md-6{
+
+#about .col-md-6 {
     padding: 0;
 }
-#about .col-md-8{
+
+#about .col-md-8 {
     padding-bottom: 2em;
 }
-#about button{
-    width:100%;
+
+#about button {
+    width: 100%;
     background-color: #00C3F9;
     border-color: #00C3F9;
 }
 
 /* contact */
-#contact .row{
+#contact .row {
     margin: 0;
     padding: 0;
 }
- .myform{
-   padding-top: 3em;
-   padding-bottom: 3em;
-   
+
+.myform {
+    padding-top: 3em;
+    padding-bottom: 3em;
+
 }
-#contact button{
-    width:100%;
-    background-color: rgb(79, 238, 209);
-    border-color: rgb(79, 238, 209);
+
+#contact button {
+    width: 100%;
+    background-color: #00C3F9;
+    border-color: #00C3F9;
 }
 
 /* footer */
-footer{
+footer {
     background-color: rgb(211, 211, 211);
     padding-top: 2em;
     padding-bottom: 2em;
@@ -141,13 +183,54 @@ footer{
 
 /* signin */
 
-#signin{
+#signin {
     height: 70vh;
 }
-#signin button{
-   width: 100%;
-    background-color: rgb(79, 238, 209);
-    border-color: rgb(79, 238, 209);
+
+#signin button {
+    width: 100%;
+    background-color: #00C3F9;
+    border-color: #00C3F9;
+}
+#signin .row{
+    padding: 0;
+    margin: 0;
 }
 
-=
+/* querys */
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+    #home {
+        background-image: url('./img/bg-hand.jpg');
+    }
+    #about .col-md-4{
+        margin-bottom: 3em;
+    }
+    #about .col-md-4 .text-justify{
+        margin-bottom: 2em;
+    }
+    #contact{
+        padding-top: 2em;
+    }
+    .myform {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .myform.shadow {
+        box-shadow: 0 0 0 rgba(0,0,0,0)!important;
+        margin-bottom: 3em;
+    }
+    #contact .col-md-5{
+        margin-bottom: 2em;
+    }
+    #signin .row{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    #signin .text{
+        display: none;
+    }
+    footer .row{
+        padding-right: 0;
+        margin-left: 0;
+    }
+}
